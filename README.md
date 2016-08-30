@@ -5,3 +5,9 @@ This repository contains a script to automate the execution of Monitorito. This 
 * chromeBinaryLocation (this parameter defines the location of the chrome binary)
 * chromeUserDataDirectory (this paramter defines the location of the user data for Chrome, optional)
 * extensionID (this parameter defines the extensionID, visible from the extensions panel of Chrome, used to open the correct URL pointing to the extension)
+
+Execution:  
+``sh
+auto.py -i dataset.txt
+``  
+where dataset.txt is a file containing one URL per line.
